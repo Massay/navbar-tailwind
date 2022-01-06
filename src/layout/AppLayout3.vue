@@ -1,7 +1,7 @@
 <template>
-  <div class="sm:container sm:mx-auto h-screen">
+  <div class="h-screen">
     <header>
-      <nav class="fixed left-0 right-0 top-0 z-50 bg-green-600">
+      <nav class="fixed top-0 z-50 bg-green-600 w-full left-0 right-0 sm:w-12/12 sm:mx-auto">
         <!-- {{ state.windowWidth }} -->
         <!-- Primary Links -->
         <!-- Hide  by default and show for Screens of greater than 640px  -->
@@ -161,7 +161,7 @@
           my-2
           fixed
           bottom-6
-          sm:bottom-16
+          sm:bottom-2
           right-4
         "
       >
