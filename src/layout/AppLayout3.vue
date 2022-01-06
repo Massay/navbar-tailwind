@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:container sm:mx-auto relative h-screen">
+  <div class="sm:container sm:mx-auto  h-screen">
     <header>
       <nav class="fixed left-0 right-0 top-0 z-50 bg-green-600">
         <!-- {{ state.windowWidth }} -->
@@ -112,7 +112,7 @@
 
     <div
       id="wrapper"
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 sm:mt-16"
+      class="grid grid-cols-1 relative sm:grid-cols-2 md:grid-cols-4 sm:mt-16 p-2 sm:p-0 gap-3 sm:gap-0  mt-10 "
     >
       <div class="h-48 bg-purple-300">div 1</div>
       <div class="h-48 bg-gray-200">div 2</div>
@@ -120,11 +120,13 @@
       <div class="h-48 bg-yellow-200">div 4</div>
       <div class="h-48 bg-blue-200">div 5</div>
       <div class="h-48 bg-green-200">div 6</div>
-    </div>
 
-    <div class="bg-red-400 w-10 h-10 rounded-full text-center flex items-center justify-center p-2 sm:p-8 my-2 absolute bottom-6 sm:bottom-16 right-4"> 
+      <div class="bg-red-400 w-10 h-10 rounded-full text-center flex items-center justify-center p-2 sm:p-8 my-2 fixed bottom-6 sm:bottom-16 right-4"> 
         Icon
     </div>
+    </div>
+
+    
   </div>
 </template>
 
