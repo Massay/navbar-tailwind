@@ -1,16 +1,29 @@
 <template>
   <div class="h-screen">
     <header>
-      <nav class="fixed top-0 z-50 bg-green-600 w-full left-0 right-0 sm:w-12/12 sm:mx-auto">
+      <nav
+        class="
+          fixed
+          top-0
+          z-50
+          bg-green-600
+          w-full
+          left-0
+          right-0
+          sm:w-12/12 sm:mx-auto
+        "
+      >
+        <!-- <button class="bg-red-300 ml-5">Hello</button> -->
         <!-- {{ state.windowWidth }} -->
         <!-- Primary Links -->
         <!-- Hide  by default and show for Screens of greater than 640px  -->
-        <div class="hidden sm:flex justify-between p-4">
-          <a href="#">Home</a>
-          <a href="#">ABout Us</a>
-          <a href="#">Gallery</a>
-          <a href="#">News</a>
-          <a href="#">Contact Us</a>
+        <div class="hidden sm:flex justify-start p-4">
+          <a href="#" class="mr-auto">Login</a>
+          <a href="#" class="mx-2">Home</a>
+          <a href="#" class="mx-2">About Us</a>
+          <a href="#" class="mx-2">Gallery</a>
+          <a href="#" class="mx-2">News</a>
+          <a href="#" class="mx-2">Contact Us</a>
         </div>
 
         <!-- Secondary Links -->
@@ -19,12 +32,7 @@
         <input type="checkbox" id="nav__checkbox" />
         <div class="flex justify-end">
           <label for="nav__checkbox" class="sm:hidden">
-            <svg
-              viewBox="0 0 100 80"
-              width="40"
-              height="40"
-              class="p-2 open"
-            >
+            <svg viewBox="0 0 100 80" width="40" height="40" class="p-2 open">
               <rect width="100" height="20"></rect>
               <rect y="30" width="100" height="20"></rect>
               <rect y="60" width="100" height="20"></rect>
@@ -148,16 +156,19 @@
 
       <div
         class="
-          bg-red-400
+          bg-red-700
           w-10
           h-10
           rounded-full
+          text-white 
           text-center
           flex
           items-center
           justify-center
           p-2
-          sm:p-8
+          sm:p-2
+          sm:w-16
+          sm:h-16
           my-2
           fixed
           bottom-6
@@ -165,7 +176,9 @@
           right-4
         "
       >
-        Icon
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:w-10 sm:h-10 text-white" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+</svg>
       </div>
     </div>
   </div>
@@ -177,7 +190,7 @@
 #nav__checkbox {
   display: none;
 }
-.close{
+.close {
   display: none;
 }
 .mobileMenu ul {
@@ -192,7 +205,7 @@
   display: none;
 }
 
-#nav__checkbox:checked ~ div  label .close {
+#nav__checkbox:checked ~ div label .close {
   display: block;
 }
 </style>
