@@ -1,9 +1,9 @@
 <template>
   <div class="" id="main-page">
-    <header class="flex justify-end">
+    <header>
       <!-- Toogle for Mobile Devices -->
       <input type="checkbox" id="nav_toogler" />
-      <label for="nav_toogler" class="sm:hidden">
+      <label for="nav_toogler" class="sm:hidden flex justify-end">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6 open sm:hidden"
@@ -256,17 +256,15 @@
       <nav
         class="
           hidden
-          sm:flex
-          w-full
-          bg-sky-700
-          m-3
+          sm:block
+          bg-red-700
           text-white
           font-semibold
           rounded-lg
           p-2
         "
       >
-        <ul class="flex justify-start w-full">
+        <ul class="flex justify-start">
           <li
             class="
               rounded-md
