@@ -264,13 +264,12 @@
           p-2
         "
       >
-        <ul class="flex justify-start">
+        <ul class="flex justify-start text-xs">
           <li
             class="
               rounded-md
-              m-2
               p-2
-              text-sm text-center
+              text-center
               hover:border-b-sky-900
               border-b-4
               hover:cursor-pointer
@@ -299,9 +298,8 @@
           <li
             class="
               rounded-md
-              m-2
               p-2
-              text-sm text-center
+              text-center
               hover:border-b-sky-900
               border-b-4
               hover:cursor-pointer
@@ -329,9 +327,9 @@
           <li
             class="
               rounded-md
-              m-2
+             
               p-2
-              text-sm text-center
+              text-center
               hover:border-b-sky-900
               border-b-4
               hover:cursor-pointer
@@ -359,9 +357,9 @@
           <li
             class="
               rounded-md
-              m-2
+             
               p-2
-              text-sm text-center
+              text-center
               hover:border-b-sky-900
               border-b-4
               hover:cursor-pointer
@@ -388,9 +386,9 @@
           <li
             class="
               rounded-md
-              m-2
+             
               p-2
-              text-sm text-center
+              text-center
               hover:border-b-sky-900
               border-b-4
               hover:cursor-pointer
@@ -424,9 +422,9 @@
           <li
             class="
               rounded-md
-              m-2
+             
               p-2
-              text-sm text-center
+              text-center
               hover:border-b-sky-900
               border-b-4
               hover:cursor-pointer
@@ -454,9 +452,9 @@
           <li
             class="
               rounded-md
-              m-2
+             
               p-2
-              text-sm text-center
+              text-center
               hover:border-b-sky-900
               border-b-4
               hover:cursor-pointer
