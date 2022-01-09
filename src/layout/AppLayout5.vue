@@ -6,6 +6,7 @@
         grid
         lg:grid-cols-2
         grid-cols-1
+        mx-auto
         lg:gap-24 lg:grid-flow-col-dense lg:px-8 px-4 lg:max-w-7xl
       "
     >
